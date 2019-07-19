@@ -19,9 +19,11 @@ namespace COMP123_S2019_Lab10__301042327_
 
         private void BackButton_Click(object sender, EventArgs e)
         {
-            MainForm mainForm = new MainForm();
-            mainForm.Show();
-            this.Hide();
+            //MainForm mainForm = new MainForm();
+            //mainForm.Show();
+            //this.Hide();
+            Program.mainForm.Show();
+            Program.endForm.Hide();
         }
 
         private void EndForm_FormClosing(object sender, FormClosingEventArgs e)
